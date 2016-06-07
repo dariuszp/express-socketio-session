@@ -1,0 +1,29 @@
+{
+  "name": "express-socketio-session",
+  "version": "1.0.0",
+  "description": "Small example of express with socket.io sharing session data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariuszp/express-socketio-session.git"
+  },
+  "keywords": [
+    "session",
+    "express",
+    "socket.io"
+  ],
+  "author": "Dariusz Półtorak <poltorak.dariusz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dariuszp/express-socketio-session/issues"
+  },
+  "homepage": "https://github.com/dariuszp/express-socketio-session#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "socket.io": "^1.4.6"
+  }
+}

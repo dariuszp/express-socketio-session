@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io.connect('http://localhost:3000');
+        socket.on('data', function (data) {
+            document.write(data.counter);
+        });
+    </script>
+</body>
+</html>
